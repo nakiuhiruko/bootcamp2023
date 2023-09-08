@@ -6,7 +6,8 @@ function App() {
   let user = {
     firstName: "Vincent",
     lastName: "Zerbib",
-    isAuth: false
+    isAuth: false,
+    age: 20
   }
 
   const { firstName, lastName, isAuth } = user;
