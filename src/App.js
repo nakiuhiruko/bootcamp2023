@@ -13,7 +13,6 @@ function App() {
   const { firstName, lastName, isAuth } = user;
 
   const authenticateUser = () => {
-    console.log("trigger");
     user.isAuth = true
   }
 
